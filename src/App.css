@@ -1,0 +1,130 @@
+.image-icon {
+  width: 125px;
+  height: auto;
+  margin-right: 10px;
+}
+.image-icon img {
+  width: 100%;
+  height: auto;
+}
+.custom-bg {
+  background-image: url(./support-image.jpg) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: 70% 70% !important;
+}
+.item-bg {
+  padding: 12px 8px !important;
+  border-radius: 6px !important;
+  background: #2185d0 !important;
+}
+.label-bg-ash {
+  background-color: #e8e8e8 !important;
+}
+.font-white {
+  color: #fff !important;
+}
+.font-weight-normal {
+  font-weight: 100 !important;
+}
+.sub-head-style {
+  padding: 0.6em 1em !important;
+  text-transform: capitalize !important;
+}
+.label-bg-blue {
+  background-color: #2185d0 !important;
+  color: #fff !important;
+}
+.label-bg-red {
+  background-color: #db2828 !important;
+  color: #fff !important;
+}
+.label-bg-violet {
+  background-color: #6435c9 !important;
+  color: #fff !important;
+}
+.ui.sub.header {
+  text-transform: capitalize !important;
+  font-size: 0.9em;
+}
+.ui.header > .icon {
+  font-size: 1.2em !important;
+}
+.down-arrow {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+.ui.list {
+  margin: 0 !important;
+}
+.ui.celled.list > .list {
+  padding-top: 1em !important;
+  padding-bottom: 1em !important;
+  font-size: 14px;
+}
+.font-blue {
+  color: #193867 !important;
+}
+.report-icon {
+  max-width: 150px;
+}
+.report-icon img {
+  width: 100%;
+  height: auto;
+}
+ul,
+li {
+  list-style: none;
+  padding: 0;
+}
+.tm-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tm-h1 {
+  font-size: 1.1rem;
+}
+.tm-sessions {
+  margin-top: 2rem;
+  border-radius: 12px;
+  position: relative;
+}
+li {
+  padding-bottom: 1.5rem;
+  border-left: 1px solid #d4d4d5;
+  position: relative;
+  padding-left: 20px;
+  margin-left: 10px;
+}
+li:last-child {
+  border: 0px;
+  padding-bottom: 0;
+}
+li::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: #d4d4d5;
+  border: 1px solid #e0e0e0;
+  border-radius: 50%;
+  position: absolute;
+  left: -8px;
+  top: 0px;
+}
+.time {
+  color: #2a2839;
+  font-weight: 500;
+}
+.tm-p {
+  color: #4f4f4f;
+  line-height: 1.5;
+  margin-top: 0.4rem;
+}
+.bottom-padding {
+  padding-bottom: 50px !important;
+}
+.pointer {
+  cursor: pointer !important;
+}
