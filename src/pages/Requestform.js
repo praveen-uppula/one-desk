@@ -36,7 +36,7 @@ const Requestform = () => {
                 <div className="two wide column"></div>
                 <div className="four wide column">
                   <div className="report-icon">
-                    <img src={reportIcon} alt="report image" />
+                    <img src={reportIcon} alt="report" />
                   </div>
                 </div>
                 <div className="ten wide column">
