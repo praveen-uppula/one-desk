@@ -144,7 +144,9 @@ const Bottomcontent = () => {
           <div className="content">
             <div className="ui small feed">
               <div className="ui celled list">
-                <div className="item">Client site is not accessible</div>
+                <Link class="section" to="/response">
+                  <div className="item">Client site is not accessible</div>
+                </Link>
               </div>
             </div>
           </div>

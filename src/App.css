@@ -128,3 +128,6 @@ li::before {
 .pointer {
   cursor: pointer !important;
 }
+.pl-4 {
+  padding-left: 4rem;
+}
